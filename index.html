@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive college recommendation system</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>College</span>Suggestion</span>System</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">stream</a>
+            <a href="#packages">college</a>
+            <a href="#services">Ranking</a>
+            <a href="#gallery">Cost</a>
+            <a href="#review">Review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Education is the best provision for life's journey</h3>
+            <p>dicover your dream college with us</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts  -->
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>S</span>
+            <span>T</span>
+            <span>R</span>
+            <span>E</span>
+            <span>A</span>
+            <span>M</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/college.png" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>Select the stream you wanna to choose</h3>
+                    <input type="text" placeholder="Engineering">
+                </div>
+                <div class="inputBox">
+                    <h3>Applying for UG/PG</h3>
+                    <input type="text" placeholder="UG">
+                </div>
+                <div class="inputBox">
+                    <h3>Select the course/specilization</h3>
+                    <input type="text" placeholder="CSE-CORE">
+                </div>
+                <div class="inputBox">
+                    <h3>College Fee</h3>
+                    <input type="number">
+                </div>
+                <input type="submit" class="btn" value="Search">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- book section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/p-1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Guwahati </h3>
+                    <p>Indian Institute of Technology Guwahati, the sixth member of the IIT fraternity, was established
+                        in 1994.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> INR 15.1 lakh <span>INR 16.1 lakh</span> </div>
+                    <a href="#" class="btn">Review now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-2.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Delhi</h3>
+                    <p>Indian Institute of Technology Delhi is a globally acclaimed research university and engineering
+                        institute located in Hauz Khas in South Delhi, Delhi, India.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> INR 13.1 lakh<span>INR 17.1 lakh</span> </div>
+                    <a href="#" class="btn">Review now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Kanpur</h3>
+                    <p>Indian Institute of Technology Kanpur is a public technical university located in Kanpur, Uttar
+                        Pradesh, India. It was declared to be an Institute of National Importance by the Government of
+                        India under the Institutes of Technology Act.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> INR 14.1 lakh <span>INR 17.1 lakh</span> </div>
+                    <a href="#" class="btn">Review now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Kharagpur</h3>
+                    <p>Indian Institute of Technology Kharagpur is a public university established by the government of
+                        India in Kharagpur, West Bengal, India. Established in 1951, the institute is the first of the
+                        IITs to be established and is recognised as an Institute of National Importance.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> INR 16.1 lakh <span>INR 17 lakh</span> </div>
+                    <a href="#" class="btn">Review now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-5.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Abroad </h3>
+                    <p>Humboldt University of Berlin is a public research university in the central borough of Mitte in
+                        Berlin, Germany</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $64,168.30 <span>$70,168.30</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> India </h3>
+                    <p>Located on the banks of the river Brahmaputra in Guwahati, Assam, IIT Guwahati is home to the
+                        first research park in North East India. Ranked 41 in the 'Research Citations per Faculty'
+                        category by QS World University Rankings 2022, IIT Guwahati holds the status of Institute of
+                        Importance like other IITs.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $15,256.00 <span>$17,256.00</span> </div>
+                    <a href="#" class="btn">Review now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>R</span>
+            <span>A</span>
+            <span>N</span>
+            <span>K</span>
+            <span>i</span>
+            <span>N</span>
+            <span>g</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable colleges</h3>
+                <p>The affordability benchmark is based on the idea that college would be affordable if its expenses
+                    could be covered by saving a modest amount (10 percent of one's discretionary income) over 10 years
+                    and working 10 hours a week while in school.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-school"></i>
+                <h3>List of universtiy</h3>
+                <p>List of Universtiy based on rating
+                    Each university is judged in five categories covering the core missions of all world-class, global
+                    universities: Teaching, Research, Citations (research influence), Industry Income and International
+                    Outlook.
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>A principle or regulation governing actions, procedures or devices intended to lower the occurrence or risk of injury, loss and danger to persons, property or the environment.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-building"></i>
+                <h3>NIRF Ranking</h3>
+                <p>The National Institutional Ranking Framework is a methodology adopted by the Ministry of Education, Government of India, to rank institutions of higher education in India.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Distance education</h3>
+                <p>Distance education, also known as distance learning, is the education of students who may not always be physically present at a school. Traditionally, this usually involved correspondence courses wherein the student corresponded with the school via mail. Today, it usually involves online education.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>academic reading</h3>
+                <p>Academic reading is an active process that goes beyond merely reading and highlighting your text. You need to interact with the text by taking notes, making connections between the text and what you already know or have experienced, and asking critical questions about the material you are reading.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>s</span>
+            <span>t</span>
+            <span class="space"></span>
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>Fee Structure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>Fee Structure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>Fee Structure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>Fee Structure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>Fee Structure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>Fee Structure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>Fee Structure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>Fee Structure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>Fee Structure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>A</span>
+            <span>l</span>
+            <span>u</span>
+            <span>m</span>
+            <span>n</span>
+            <span>i</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic1.jpg" alt="">
+                        <h3>Nandan Nilekani</h3>
+                        <p> Mohanrao Nilekani is an Indian entrepreneur. He co-founded Infosys and is the
+                            non-executive chairman of Infosys replacing R Seshasayee and Ravi Venkatesan, who were the
+                            co-chairs of the board, on 24 August 2017.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic2.jpg" alt="">
+                        <h3>Ashish Chauhan</h3>
+                        <p>Ashish Kumar Chauhan is an Indian business executive, administrator and current Chancellor of
+                            University of Allahabad.He also serves as the member of Governing council of one of the
+                            premier B school in India - IIM Raipur.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic3.jpg" alt="">
+                        <h3>Salil Parekh</h3>
+                        <p>Salil Parekh is the current chief executive officer and managing director of Infosys. Parekh
+                            took over from interim CEO U B Pravin Rao on 2 January 2018.</p>
+
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic4.jpg" alt="">
+                        <h3>Bhavish Aggarwal</h3>
+                        <p> Aggarwal is an Indian entrepreneur and co-founder of Ola Cabs and Ola Electric.
+                            Aggarwal was included in Time magazine's 100 Most Influential People of 2018</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+          
+
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- brand section  -->
+    <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>This site for Educational Marketing<br>
+                    contact us: nr6421@srmist.edu.in<br>
+                   Published on 16 June © 2022.
+                </p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">stream</a>
+                <a href="#">college</a>
+                <a href="#">Ranking</a>
+                <a href="#">Cost</a>
+                <a href="#">Review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span>Nikhil & Krishna </span> | all rights reserved! © 2022</h1>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
